@@ -1,0 +1,3 @@
+# Hello and welcome to my portfolio!  
+
+This project marks my very first attempt at building a personal portfolio website, and I am excited to share it with you. I created this site using Bootstrap, a powerful front-end framework that helped me design a responsive and visually appealing layout. Through this project, I aimed to showcase my skills, projects, and passion for web development. Thank you for visiting, and I hope you enjoy exploring my work!
