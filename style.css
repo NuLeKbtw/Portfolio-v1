@@ -64,3 +64,20 @@ img {
 @keyframes animate-positive {
     0% { width: 0%; }
 }
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 50px;
+    }
+    img {
+        width: 300px;
+    }
+    .progress-outer {
+        padding: 15px;
+    }
+    .progress-value {
+        left: -30px;
+        font-size: 12px;
+    }
+    
+}
