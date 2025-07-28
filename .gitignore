@@ -1,5 +1,4 @@
-*.log
-tmp/
+private/
 preview.css
-preview.html
+preview.html   
 img/OdinRecipes.png
