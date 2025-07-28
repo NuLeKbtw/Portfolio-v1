@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="preview.css">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid d-flex justify-content-between align-items-center">
+            <div class="flex-grow-1"></div>
+            <a class="navbar-brand mx-auto" href="https://github.com/NuLeKbtw" target="_blank" style="position: absolute; left: 50%; transform: translateX(-50%);">NuLeKbtw</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#hero">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Hero Section -->
+    <header class="hero bg-primary text-white text-center d-flex flex-column justify-content-center align-items-center" id="hero">
+        <div class="container-fluid">
+        <div class="text-center py-5">
+            <div>
+                <h1 id="hero-title" class="display-1 text-white text-center">Welcome to My Portfolio</h1>
+                <p id="hero-subtitle" class="lead text-white text-center">Explore my projects and skills</p>
+            </div>
+        </div>
+        </div>
+    </header>
+      <!--About-->
+        <section class="bg-ignito about py-5 text-white" id="about"> 
+            <div class="container">
+              <div class="d-flex align-items-center">
+                <img src="https://avatars.githubusercontent.com/u/154680747?v=4" class="img-fluid rounded-circle px-4 py-4" style="max-width: 250px;" alt="avatars from github NuLeKbtw">
+              <div>
+                <h2 class="mb-4">NuLeKbtw</h2>
+                <p class="mb-4">
+                    My name is Gabriel, I am 18 years old. I started learning programming some time ago, but took a break and now my passion has returned. I began by coding bots for Discord applications, and now I am focusing on web development. This is my first portfolio where I make extensive use of Bootstrap.
+                </p></p>
+              </div>
+            </div>
+            </Div>
+        </section>
+            <!-- Skills Section -->
+        <div class="bg-pink py-5 text-white text-center d-flex flex-column justify-content-center align-items-center" id="skills">
+            <div class="card mb-3 text-white" id="card" style="width: 18rem;">
+            <img src="img/OdinRecipes.png" class="card-img-top" alt="Project Odin Recipes Image">
+            <div class="card-body">
+                <h5 class="card-title">Odin Recipes</h5>
+                <p class="card-text">This is my first project from the "Foundations Course" by The Odin Project. I haven't completed the entire course and decided to learn differently, as these are earlier attempts from 2024.</p>
+                <a href="https://nulekbtw.github.io/odin-recipes" target="_blank" class="btn btn-light">Go to website</a>
+            </div>
+            </div>
+        </div>
+        <!--Contact-->
+        <div id="contact" class="bg-reed py-5 text-white d-flex justify-content-center align-items-center" style="min-height: 60vh;">
+            <form class="w-100" style="max-width: 500px; background: rgba(0,0,0,0.25); border-radius: 1rem; padding: 2rem;">
+                <div class="mb-3 row">
+                    <label for="inputName" class="col-sm-3 col-form-label text-start">Name</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" id="inputName">
+                    </div>
+                </div>
+                <div class="mb-3 row">
+                    <label for="inputEmail" class="col-sm-3 col-form-label text-start">E-mail</label>
+                    <div class="col-sm-9">
+                        <input type="email" class="form-control" id="inputEmail">
+                    </div>
+                </div>
+                <div class="mb-3 row">
+                    <label for="inputContent" class="col-sm-3 col-form-label text-start">Content</label>
+                    <div class="col-sm-9">
+                        <textarea class="form-control" id="inputContent" rows="3"></textarea>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-primary px-4">Send</button>
+                    <div class="text-center text-white">Psst it doesn't work.</div>
+                </div>
+            </form>
+        </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,60 @@
+body{
+    font-family: DM Sans, Open Sans, sans-serif;
+}
+#hero-title{
+    font-size: 112px;
+}
+#hero-subtitle{
+    font-size: 24px;
+}
+.bg-ignito {
+    background-color: #6610f2 !important; /* Ignito color */
+}
+#hero { 
+    height: 100vh;
+    scroll-behavior: smooth;
+}
+.bg-pink {
+    background-color: #9B245F !important; /* Pink color */
+}
+#card{
+    background-color: #cf2f7f6e; 
+}
+.bg-reed{
+    background-color: #84202A !important; /* Red color */
+}
+
+@media screen and (max-width: 600px) {
+    #hero-title {
+        font-size: 32px;
+    }
+    #hero-subtitle {
+        font-size: 14px;
+    }
+    #hero {
+        height: auto;
+        padding: 40px 0;
+    }
+
+    #card {
+        width: 100%;
+        max-width: 95vw;
+        margin: 0 auto;
+    }
+    #skills {
+        padding: 1rem 0;
+    }
+    #contact form {
+        padding: 0.5rem;
+    }
+    .about .d-flex {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .about img {
+        margin-bottom: 1rem;
+        padding: 0;
+        max-width: 150px;
+    }
+}
